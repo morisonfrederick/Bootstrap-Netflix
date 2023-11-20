@@ -1,0 +1,175 @@
+body{
+    background-color: #141414;
+    /*position: relative;*/
+
+}
+.netflix-navbar{
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    transition: background 0.2s linear;
+}
+.nav-colored {
+    background-color:#000; 
+}
+.nav-transparent {
+    background-color:transparent;
+}
+.logo{
+    width: 100px;
+}
+.netflix-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.netflix-padding-left{
+    padding-left: 57px;
+}
+.netflix-padding-right{
+    padding-right: 57px;
+}
+.netflix-dropdown{
+    background: transparent;
+    color: #fff;
+    font-size: 9px;
+    border: none;
+
+}
+.dropdown{
+    display: none;
+}
+.dropdown-menu{
+    background-color: #0000006a;
+    color: #fff !important;
+    margin-left: -80px;
+    margin-top: 30px;
+    border-top: 3px solid #fff;
+}
+.dropdown-item{
+    color: rgba(255, 255, 255, 0.755);
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.dropdown-item:hover{
+    background-color: #ffffff1b;
+    color: #fff;
+}
+.netflix-nav{
+    display: block;
+    align-items: center;
+}
+.netflix-nav button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.755);
+    border: none;
+    font-size: 13px;
+}
+.netflix-nav button:hover{
+    color:#ffffff90;
+}
+i{
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 20px;
+}
+.netflix-profile{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.netflix-home-video video{
+    width: 100%;
+
+}
+.netflix-home-video .top{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to top, transparent, #000);
+}
+.netflix-home-video .bottom{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to bottom, transparent, #141414);
+}
+.netflix-home-video .content{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    
+}
+.netflix-home-video .content .left{
+    margin-left: 80px;
+}
+.netflix-home-video .content .left img{
+    margin-top: 190px;
+}
+.card{
+    width: 250px;
+    background: #141414;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    margin: 3px;
+    position: relative;
+}
+.card:hover{
+    transform: scale(1.4);
+    z-index: 10;
+}
+.card-icon{
+    color: #fff;
+    padding: 0px !important;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider1{
+    position: absolute;
+    top: 600px;
+    z-index: 600;
+    width: 100%;
+}
+.slider2{
+    position: absolute;
+    top: 900px;
+    z-index: 500;
+    width: 100%;
+}
+.netflix-card-text{
+    font-size: 12px;
+}
+.card-body{
+    display: none;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #141414;
+    top: 120px;
+    width: 100%;
+}
+.card:hover > .card-body{
+    display: block;
+}
+.footer{
+    position: absolute;
+    top: 1150px;
+    z-index: 2000;
+    width: 100%;
+}
+.footer div{
+    margin-left: 80px;
+    margin-right: 80px;
+}

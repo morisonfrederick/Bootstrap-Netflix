@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.351), rgba(0, 0, 0, 0.455)) , url(img/login-bg.jpeg);
+    height: 100vh;
+}
+.login-top{
+    width: 100vw;
+    height: 90px;
+    background-color: #000;
+    background: transparent;
+    padding: 20px;
+}
+.login-top img{
+    width: 166.5px;
+    height: 45px;
+    margin-left: 45.575px;
+}
+/*.login-content{
+    border: 2px solid black;
+    
+    margin: 0 0 90px;
+    padding: 60px 68px 40px;*/
+    
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 660px;
+    background-color: rgba(0, 0, 0, 0.749);
+    margin: 0 0 90px;
+    padding: 60px 68px 40px;
+}
+.small-text{
+   font-size: 16px;
+}
+.form-control{
+    box-shadow: none!important;
+}
+label.remember{
+    color: #b3b3b3!important; 
+}
+.need-help{
+    display:flex;
+    float:right;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.new-to-netflix{
+    color: #b3b3b3;
+}
+.new-to-netflix a{
+    color: white;
+    text-decoration: none;
+}
+.recaptcha span{
+    color: #8c8c8c;
+    font-size: 13px;
+}
+.recaptcha button{
+    border: none;
+    background: transparent;
+    color: #0071eb;
+
+}
